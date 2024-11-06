@@ -12,7 +12,7 @@ Definition of PV Fireman Switch
 
 **"Automatically disconnects the DC supply on a Solar PV system when the AC grid supply is interrupted. When installed at the point of cable entry into the premises, this product creates a safe environment for Firefighters."**
 
-{{< figure src="2024/fireman-switch-solarpv/fireman-switch-1.jpg"  >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/fireman-switch-solarpv/fireman-switch-1.jpg"  >}}
 
 So what does this actually mean and what happens if it stops working as expected?
 
@@ -30,11 +30,11 @@ Can I fix it?
 
 The unit is NOT designed to be repaired, it is **NOT field replaceable**. It is delivered pre-wired and not meant to have items replaced. This ensures that a standard is used. This is my unit that failed and yes it was replaced.
 
-{{< figure src="/2024/fireman-switch-solarpv/fireman-switch-2.jpg"  >}}
-{{< figure src="/2024/fireman-switch-solarpv/fireman-switch-3.jpg"  >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/fireman-switch-solarpv/fireman-switch-2.jpg"  >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/fireman-switch-solarpv/fireman-switch-3.jpg"  >}}
 
 It must be **replaced**, it is an easy enough job to perform as long as your system is well labelled (which it should be already). It has a label for PV IN and PV OUT and the connection for the AC supply is well marked. Replace your unit and you are up and running again.
 
-{{< figure src="/2024/fireman-switch-solarpv/fireman-switch-4.jpg"  >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/fireman-switch-solarpv/fireman-switch-4.jpg"  >}}
 
 Until next time.
