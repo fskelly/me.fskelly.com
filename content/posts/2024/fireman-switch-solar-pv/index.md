@@ -12,7 +12,7 @@ Definition of PV Fireman Switch
 
 **"Automatically disconnects the DC supply on a Solar PV system when the AC grid supply is interrupted. When installed at the point of cable entry into the premises, this product creates a safe environment for Firefighters."**
 
-{{< figure src="../2024/fireman-switch-solarpv/fireman-switch-1.jpg"  >}}
+{{< figure src="2024/fireman-switch-solarpv/fireman-switch-1.jpg"  >}}
 
 So what does this actually mean and what happens if it stops working as expected?
 
