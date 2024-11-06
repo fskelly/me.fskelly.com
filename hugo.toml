@@ -85,3 +85,6 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 [taxonomies]
    tag = "tags"
    category = "categories"
+
+######
+canonifyURLs = true
