@@ -1,6 +1,6 @@
 +++
 date = '2022-03-03T10:50:03Z'
-draft = true
+draft = false
 title = 'Smarter Washing Machine Notifications'
 author = 'Fletcher Kelly'
 tags = ['Home Assistant']

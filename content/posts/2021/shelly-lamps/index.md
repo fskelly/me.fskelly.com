@@ -1,9 +1,10 @@
 +++
 date = '2021-01-05T11:35:15Z'
-draft = true
+draft = false
 title = 'Shelly Lamps'
 description = 'Adding Shelly1 to lamps'
-tags = ['shelly', 'home automation', 'Home Assistant']
+tags = ['shelly', 'Home Assistant']
+author = 'Fletcher Kelly'
 +++
 
 ## Use Case
@@ -14,7 +15,7 @@ I had been using a WiFi bulb with the lamps to control the lighting, this was wo
 
 I also use ZWave around the house and decided to use a WallMote with Node-Red to map buttons to control the above lights, this solution was better but still lacked the local control. My wife was happier but not yet happy.
 
-{{< figure src="/images/2021/shelly1Lamps/wallmote.jpg" alt="Wallmote" >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2021/shelly1Lamps/wallmote.jpg" alt="Wallmote" >}}
 
 ### Solution 2
 
@@ -24,7 +25,7 @@ I followed this video - [shelly 1 how to wire it](https://www.youtube.com/watch?
 
 <!-- {{< figure src="/images/2021/shelly1Lamps/shellyLamp.jpg" title="Shelly in Lamp" class="left" >}} -->
 
-{{< figure src="/images/2021/shelly1Lamps/shellyLamp.jpg" alt="Shelly in Lamp" >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2021/shelly1Lamps/shellyLamp.jpg" alt="Shelly in Lamp" >}}
 
 ## Takeaway
 
