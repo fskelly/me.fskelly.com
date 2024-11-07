@@ -11,8 +11,13 @@
                     <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
                 </div>
                 {{ end }}
-                <div class="post-meta">
-                    <p>Author: {{ .Params.author }}</p>
+                <div class="post-meta author-info-wrapper" style="text-align: left;">
+                    <div class="author-info" style="display: flex; align-items: center; justify-content: flex-start;">
+                        {{ with .Params.avatar }}
+                        <img src="{{ . }}" alt="{{ $.Params.author }}" class="author-avatar" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;">
+                        {{ end }}
+                        <p>Author: {{ .Params.author }}</p>
+                    </div>
                 </div>
             </header>
             {{ partial "toc.html" .}}

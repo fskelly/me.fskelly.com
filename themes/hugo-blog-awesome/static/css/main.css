@@ -1,0 +1,16 @@
+.author-info-wrapper {
+    text-align: left; /* Ensure the wrapper is left-aligned */
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Ensure left alignment */
+}
+
+.author-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
