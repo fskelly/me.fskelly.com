@@ -11,6 +11,9 @@
                     <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ . | time.Format $configDateFormat }} </time>
                 </div>
                 {{ end }}
+                <div class="post-meta">
+                    <p>Author: {{ .Params.author }}</p>
+                </div>
             </header>
             {{ partial "toc.html" .}}
             <div class="page-content">
