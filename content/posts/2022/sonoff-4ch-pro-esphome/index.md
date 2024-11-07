@@ -3,13 +3,13 @@ date = '2022-01-17T12:26:36Z'
 draft = true
 title = 'Sonoff 4ch Pro R2 with ESPHome'
 description = 'How to flash ESPHome on a Sonoff 4ch Pro R2'
-tags = ['sonoff', 'esphome']
+tags = ['sonoff','ESPHome','Home Assistant']
 author = 'Fletcher Kelly'
 +++
 
 In this post, I am going to talk about the process of converting the Sonoff 4CH Pro R2 to [ESPHome](https://esphome.io) and how to now connect it to Home Assistant
 
-Tools needed
+## Tools needed
 
 1. FTDI Converter {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2022/sonoffProFlashESPHome/ftdiProgrammer.jpg" alt="ftdiProgrammer" height="200" width="100" >}}
 1. Dupont cables {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2022/sonoffProFlashESPHome/dupontCables.jpg" alt="dupontCables" height="200" width="100" >}}
@@ -34,7 +34,7 @@ Connects the FTDI converter to the computer
 #### Cable connections
 
 Computer → USB Cable → FTDI Converter → Dupont cables → Sonoff 4ch Pro R2
-{{< figure src="/images/2022/sonoffProFlashESPHome/sonoffHeaderPlug.jpg" alt="sonoffHeaderPlug" height="200" width="100" >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2022/sonoffProFlashESPHome//sonoffHeaderPlug.jpg" alt="sonoffHeaderPlug" height="200" width="100" >}}
 
 ### Sonoff 4Ch Pro R2
 
@@ -43,7 +43,7 @@ This is the device we are going to convert to ESPHome firmware
 ### ESPHome Yaml
 
 **Remember to use secrets (! secret)**  
-You can find the file [here](/post/2022/sonoff4chpror2esphome/sonoff-pro-4ch-test.yaml)
+You can find the file [here](https://github.com/fskelly/fskelly.me/blob/main/content/posts/2022/sonoff-4ch-pro-esphome/sonoff-pro-4ch-test.yaml)
 
 ```yml
 # Basic Config

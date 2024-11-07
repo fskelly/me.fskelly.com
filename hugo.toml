@@ -2,6 +2,7 @@ baseURL = 'fskelly.github.io'
 languageCode = 'en-us'
 title = 'fskelly.me - learn with me'
 theme = "hugo-blog-awesome"
+#paginate = 10
 
 #[module]
 #  [[module.imports]]
@@ -57,11 +58,11 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
     name = 'Home'
     url = '/'
     weight = 10
-#  [[menu.main]]
-#    pageRef="posts"
-#    name = 'Posts'
-#    url = '/posts/'
-#    weight = 20
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
   [[menu.main]]
     pageRef="tags"
     name = 'Tags'
