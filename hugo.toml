@@ -88,3 +88,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
 ######
 canonifyURLs = true
+
+#####
+[outputs]
+home = ["HTML", "JSON"]
