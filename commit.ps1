@@ -14,9 +14,8 @@ $publicFolderPath = ".\public"
 if (test-path $publicFolderPath) {
     git add .
     git commit -m $gitCommitMessage
-    git push
-    git push -u origin gitea
-    git push -u origin main
+    git push gitea main
+    git push origin main
 }
 else {
     write-output "something went WRONG"
