@@ -10,11 +10,13 @@ write-output "creating public content with HUGO"
 Hugo 
 
 write-output "checking for public folder"
-$publicFolderPath =".\public"
+$publicFolderPath = ".\public"
 if (test-path $publicFolderPath) {
     git add .
     git commit -m $gitCommitMessage
     git push
-} else {
+    git push -u origin gitea
+}
+else {
     write-output "something went WRONG"
 }
