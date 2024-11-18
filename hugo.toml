@@ -1,4 +1,5 @@
-baseURL = 'fskelly.github.io'
+# baseURL = 'fskelly.github.io'
+baseURL = 'me.fskelly.com'
 languageCode = 'en-us'
 title = 'fskelly.me - learn with me'
 theme = "hugo-blog-awesome"
