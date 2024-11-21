@@ -1,16 +1,17 @@
-.author-info-wrapper {
-    text-align: left; /* Ensure the wrapper is left-aligned */
+.banner {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: -1; /* Send to back */
 }
 
-.author-info {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Ensure left alignment */
+.banner img {
+    width: 100%;
+    height: auto;
 }
 
-.author-avatar {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
+.wrapper {
+    position: relative;
+    z-index: 1; /* Ensure content is above the banner */
 }
