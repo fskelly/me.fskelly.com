@@ -5,7 +5,9 @@ title = 'Using the Pinchflat YouTube Downloader'
 author = 'Fletcher Kelly'
 +++
 
-# Using the Pinchflat YouTube Downloader
+Are you tired of buffering videos and unreliable internet connections when trying to watch your favorite YouTube content? Look no further! In this post, I'll introduce you to Pinchflat, a powerful tool that allows you to download YouTube videos effortlessly. Inspired by a mention on the [Self-Hosted Podcast](https://selfhosted.show/), I decided to give Pinchflat a try and share my experience with you.
+
+<!--more-->
 
 I am an avid listener of the [Self-Hosted Podcast](https://selfhosted.show/), and on a [recent episode](https://selfhosted.show/134), they mentioned a new tool called [Pinchflat](https://github.com/kieraneglin/pinchflat). Naturally, I decided to give it a try. I've already starred the repo, which is a great way to support the open-source community.
 

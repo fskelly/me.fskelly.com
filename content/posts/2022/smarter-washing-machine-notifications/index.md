@@ -8,7 +8,9 @@ tags = ['Home Assistant']
 
 In this post, I show you how I use a Z-Wave Plug (Fibaro) to get more monitoring around power consumption and then use this to drive notifications.
 
-Where we live now, our washing machine is a “utility room” and we keep the door closed from a noise point of view. With this setup it is possible to miss when the washing is complete and the washing makes no noise to indicate that the washing is compete and this can lead to issues. Have you ever smelled washing that was forgotten? 😖
+<!--more-->
+
+Where we live now, our washing machine is a "utility room" and we keep the door closed from a noise point of view. With this setup it is possible to miss when the washing is complete and the washing makes no noise to indicate that the washing is compete and this can lead to issues. Have you ever smelled washing that was forgotten? 😖
 
 So how did I do this?
 
