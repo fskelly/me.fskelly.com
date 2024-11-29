@@ -6,7 +6,9 @@ title = 'What is a PV Fireman Switch?'
 tags = ['solar']
 +++
 
-Join me as I dive deeper into my Solar system and learn more about how it works in detail and maintain the system as items age/break. (everything breaks eventually)
+Join me as I dive deeper into my Solar system and learn more about how it works in detail and maintain the system as items age/break (everything breaks eventually), so let's learn about a PV Fireman switch.
+
+<!--more-->
 
 Definition of PV Fireman Switch
 

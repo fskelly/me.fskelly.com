@@ -6,9 +6,11 @@ author = 'Fletcher Kelly'
 tags = ['3D Printing']
 +++
 
-So, I have been 3D printing for a little while now. Not as long as many, but a little while. It has been about 4 years now, when I get my first and currently only 3D printer.
+So, I have been 3D printing for a little while now. Not as long as many, but a little while. It has been about 4 years now, when I get my first and currently only 3D printer. So where have I come from and what is next on my 3D printing journey?
 
-My journey started with a Creality Ender 3 Pro, I was lucky enough to get a slightly more polished version with the “PRO” version. I am a **tinkerer** by nature and I learn the most by doing.
+<!--more-->
+
+My journey started with a Creality Ender 3 Pro, I was lucky enough to get a slightly more polished version with the "PRO" version. I am a **tinkerer** by nature and I learn the most by doing.
 
 My Ender 3 Pro is **VERY FAR** from stock, it did not remain stock for very long, like I said “**I learn by doing**“. So what have I done to this printer?
 

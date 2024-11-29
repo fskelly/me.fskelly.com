@@ -6,9 +6,9 @@ author = 'Fletcher Kelly'
 tags = ['3D Printing']
 +++
 
-So, as I mentioned in my earlier post, I am waiting on my new printer.
+**Exciting times ahead!** As I mentioned in my earlier post, I have been eagerly waiting for my new 3D printer to arrive. After much consideration, I decided to go with the Bambu Lab P1S. For now, I opted not to get the bundled AMS unit. In this post, I'll share why I chose this version over others and my initial impressions.
 
-So, I decided on the Bambu Lab P1S and for now I decided NOT to get the bundled AMS unit. Why did I got for this version as opposed to other versions?
+<!--more-->
 
 {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/arrival-boxes.jpg" height="400" width="400" >}}
 {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/top.jpg" height="400" width="400" >}}
