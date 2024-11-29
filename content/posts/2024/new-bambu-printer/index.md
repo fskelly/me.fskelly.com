@@ -10,7 +10,7 @@ tags = ['3D Printing']
 
 <!--more-->
 
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/arrival-boxes.jpg" height="400" width="400" >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/arrival-boxes.jpg" alt="Arrival Boxes">}}
 {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/top.jpg" height="400" width="400" >}}
 {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/accessories.jpg" height="400" width="400" >}}
 {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/screen.jpg" height="400" width="400" >}}
