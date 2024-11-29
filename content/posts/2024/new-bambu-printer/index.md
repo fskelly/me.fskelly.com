@@ -10,10 +10,10 @@ tags = ['3D Printing']
 
 <!--more-->
 
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/arrival-boxes.jpg" alt="Arrival Boxes">}}
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/top.jpg" height="400" width="400" >}}
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/accessories.jpg" height="400" width="400" >}}
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/screen.jpg" height="400" width="400" >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/arrival-boxes.jpg" alt="Arrival Boxes"  >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/top.jpg"  >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/accessories.jpg"  >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/screen.jpg" >}}
 
 **P1P**: Great price but not enclosed, whilst I do not need the enclosure now, I think that this allows more filament types to be used. Yes, I can [enclose](https://eu.store.bambulab.com/en-ie/products/p1p-enclosure-kit) the P1P after the fact with an [official upgrade](https://eu.store.bambulab.com/en-ie/products/p1p-enclosure-kit). I did some quick maths, and determined at the price I got it for, it simply made sense as the upgrade would cost after the fact.
 
@@ -28,6 +28,6 @@ And a quick video of the printer in action. Thank you to [this](https://dev.to/h
 {{< video "https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/print-time.mp4" "my-player" >}}
 
 Here is a sample print.
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/print.JPG" height="400" width="400" >}}
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2024/new-bambu-printer/print.JPG"  >}}
 
 More on this printing journey to come. Until then, **happy printing**.
