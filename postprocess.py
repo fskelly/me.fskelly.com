@@ -9,9 +9,17 @@ base_url = "https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/"
 # Regular expression to find Hugo figure shortcodes
 figure_url_pattern = re.compile(r'{{<\s*figure\s+src="([^"]+)"\s+alt="([^"]+)"\s*>}}')
 
+# Regular expression to find commented sections
+comment_pattern = re.compile(r'<!--(.*?)-->', re.DOTALL)
+
 def update_image_urls(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
+
+    # Remove commented sections temporarily
+    comments = comment_pattern.findall(content)
+    for i, comment in enumerate(comments):
+        content = content.replace(f'<!--{comment}-->', f'__COMMENT_{i}__')
 
     # Find all figure shortcodes
     matches = figure_url_pattern.findall(content)
@@ -24,6 +32,10 @@ def update_image_urls(file_path):
             new_figure = f'{{{{< figure src="{new_url}" alt="{alt}" >}}}}'
             old_figure = f'{{{{< figure src="{src}" alt="{alt}" >}}}}'
             content = content.replace(old_figure, new_figure)
+
+    # Restore commented sections
+    for i, comment in enumerate(comments):
+        content = content.replace(f'__COMMENT_{i}__', f'<!--{comment}-->')
 
     # Save the updated content back to the file
     with open(file_path, 'w', encoding='utf-8') as file:
