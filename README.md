@@ -1,4 +1,4 @@
-![Website Build and Deploy](https://github.com/fskelly/fskelly.me/actions/workflows/hugo.yaml/badge.svg)
+![Website Build and Deploy](https://github.com/fskelly/me.fskelly.com/actions/workflows/hugo.yaml/badge.svg)
 
 # Welcome to Fletcher Kelly's Blog
 
