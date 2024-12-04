@@ -1,6 +1,6 @@
-![Website Build and Deploy](https://github.com/fskelly/me.fskelly.com/actions/workflows/hugo.yaml/badge.svg)
-
 # Welcome to Fletcher Kelly's Blog
+
+![Website Build and Deploy](https://github.com/fskelly/me.fskelly.com/actions/workflows/hugo.yaml/badge.svg)
 
 Hello and welcome to my blog! I'm Fletcher Kelly, a passionate tech enthusiast and lifelong learner. Here, I share my journey through the fascinating world of technology, home automation, and 3D printing. Whether you're a seasoned professional or just starting out, I hope you'll find something valuable and inspiring in my posts.
 
@@ -19,13 +19,29 @@ Happy reading!!
 
 Backend for my [blog](https://me.fskelly.com/)
 
+## HUGO installation
+
+I use [chocolatey](https://chocolatey.org/install) as my package manager or installation engine.
+
+Installing HUGO is easy, I choose the extended version to allow for more capabilities.
+
+```powershell
+choco install hugo-extended -y
+```
+
+My build command
+
+```bash
+C:\ProgramData\chocolatey\lib\hugo-extended\tools\hugo.exe
+```
+
 ## Create a new post
 
 I like to create my content based upon year  
-My folder structure looks like this
+My folder structure looks like this  
 
 ```bash
-content
+content  
 |---posts
     |---year
         |---postTitle
