@@ -1,5 +1,0 @@
-+++
-title = 'Author'
-+++
-
-Lorem ipsum

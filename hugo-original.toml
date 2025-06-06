@@ -1,0 +1,40 @@
+baseurl = "https://me.fskelly.com/"
+title = "fletcher-kelly"
+theme = "hugo-theme-console"
+languageCode = "en-us"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+  
+ # [[params.navlinks]]
+ # name = "photos/"
+ # url = "photos/"
+
+  [[params.navlinks]]
+  name = "tags/"
+  url = "tags/"
+
+    [[params.navlinks]]
+  name = "series/"
+  url = "series/"
+  
+
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+   series = "series"
+
+paginate = 10
