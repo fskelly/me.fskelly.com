@@ -1,6 +1,6 @@
 [[main]]
   name = "Home"
-  url = "/posts"
+  url = "/post"
   weight = -110
 
 [[main]]
