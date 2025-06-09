@@ -4,6 +4,7 @@ draft = false
 title = 'Time to get my “print” on'
 author = 'Fletcher Kelly'
 tags = ['3D Printing']
+categories = ["3D Printer"]
 +++
 
 **Exciting times ahead!** As I mentioned in my earlier post, I have been eagerly waiting for my new 3D printer to arrive. After much consideration, I decided to go with the Bambu Lab P1S. For now, I opted not to get the bundled AMS unit. In this post, I'll share why I chose this version over others and my initial impressions.
