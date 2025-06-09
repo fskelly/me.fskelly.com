@@ -4,6 +4,7 @@ draft = false
 title = 'Home Assistant Routing'
 author = 'Fletcher Kelly'
 tags = ['Home Assistant']
+topics = ['Home Automation']
 +++
 
 ## Why do I need to change my routing?

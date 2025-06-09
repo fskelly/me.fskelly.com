@@ -4,6 +4,7 @@ draft = false
 title = 'Planning for my new 3D printer'
 author = 'Fletcher Kelly'
 tags = ['3D Printing']
+topics = ["3D Printing"]
 +++
 
 So, I have been 3D printing for a little while now. Not as long as many, but a little while. It has been about 4 years now, when I get my first and currently only 3D printer. So where have I come from and what is next on my 3D printing journey?

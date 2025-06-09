@@ -5,7 +5,7 @@ title = 'Sonoff 4ch Pro R2 with ESPHome'
 description = 'How to flash ESPHome on a Sonoff 4ch Pro R2'
 tags = ['sonoff','ESPHome','Home Assistant']
 author = 'Fletcher Kelly'
-categories = ['Home Automation']
+topics = ['Home Automation']
 +++
 
 In this post, I am going to talk about the process of converting the Sonoff 4CH Pro R2 to [ESPHome](https://esphome.io) and how to now connect it to Home Assistant

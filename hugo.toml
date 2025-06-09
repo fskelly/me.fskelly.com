@@ -1,40 +1,53 @@
-baseurl = "https://me.fskelly.com/"
-title = "fletcher-kelly"
-theme = "hugo-theme-console"
-languageCode = "en-us"
+baseURL = 'https://me.fskelly.com/'
+languageCode = 'en-us'
+title = 'Fletcher Kelly | Build | Automate | Learn'
+theme = 'rusty-typewriter'
 
-[params]
-  # Cutting off the page title to two chars for mobile (console-demo -> co)
-  titleCutting = true
+# build search index ================
+[outputFormats]
+ [outputFormats.SearchIndex]
+  mediaType = "application/json"
+  baseName = "searchindex"
+  isPlainText = true
+  notAlternative = true
 
-  # Set the animation style -- https://animate.style/
-  # To disable animations, please remove or comment animationStyle parameter
-  animateStyle = "animated zoomIn fast" 
+[mediaTypes]
+ [mediaTypes."application/json"]
+  suffixes = ["json"]
 
-  [[params.navlinks]]
-  name = "about/"
-  url = "about/"
-
-  [[params.navlinks]]
-  name = "posts/"
-  url = "posts/"
-  
- # [[params.navlinks]]
- # name = "photos/"
- # url = "photos/"
-
-  [[params.navlinks]]
-  name = "tags/"
-  url = "tags/"
-
-    [[params.navlinks]]
-  name = "series/"
-  url = "series/"
-  
+[outputs]
+ home = ["HTML","RSS", "SearchIndex"]
+# ===================================
 
 [taxonomies]
-   tag = "tags"
-   category = "categories"
-   series = "series"
+tag = 'tags'
+topic = 'topics'
+series = 'series'
 
-paginate = 10
+[params.author]
+name = 'Fletcher Kelly'
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 1
+
+[[menus.main]]
+name = 'Home Automation Guy'
+pageRef = '/topics/home-automation/'
+weight = 2
+
+[[menus.main]]
+name = '3D Printing Guy'
+pageRef = '/topics/3d-printing/'
+weight = 3
+
+[[menus.main]]
+name = 'Features'
+pageRef = '/features'
+weight = 4
+
+# [[menus.main]]
+# name = 'About'
+# pageRef = '/about.md'
+# weight = 6

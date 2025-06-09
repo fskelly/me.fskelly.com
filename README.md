@@ -42,12 +42,12 @@ My folder structure looks like this
 
 ```bash
 content  
-|---posts
+|---post
     |---year
         |---postTitle
             |---index.md
 ```
 
 ```bash
-hugo new posts/{{year}}/{{postTitle}}/index.md
+hugo new post/{{year}}/{{postTitle}}/index.md
 ```
