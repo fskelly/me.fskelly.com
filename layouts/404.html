@@ -1,8 +1,9 @@
-{{ define "main" }}
-<div class="never wrap">
-  <h1>{{ T "404_title" }}</h1>
-  <p class="pale">{{ T "could_not_find" }}</p><br>
-  <div class="button btn_back">{{ T "go_back" }}</div>
-</div>
-{{ end }}
+{{- define "main" -}}
+  <div class="centered-container">
+    <h2 class="margin-sm">404</h2>
+    <h3 style="margin:0 auto 2.5rem;">{{- i18n "not_found_title" -}}</h3>
 
+    <div><i>{{- i18n "not_found_desc" -}}</i></div>
+    <a href="{{- absURL "" -}}">{{- i18n "not_found_home_link" -}}</a>
+  </div>
+{{- end -}}
