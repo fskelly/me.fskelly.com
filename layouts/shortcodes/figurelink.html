@@ -1,0 +1,13 @@
+<a href="{{ .Get "src" }}" target="_blank">
+  <img src="{{ .Get "src" }}"
+       alt="{{ .Get "alt" }}"
+       style="max-width:100%; height:auto; border:1px solid #ccc; border-radius:4px;">
+</a>
+{{ if .Get "caption" }}
+  <br>
+  <small>
+    <a href="{{ .Get "src" }}" target="_blank">
+      {{ .Get "caption" }}
+    </a>
+  </small>
+{{ end }}

@@ -34,7 +34,9 @@ I have spent time and this will be an on-going process to add GUIDs (yes, those 
 So a simple enough change, but time-consuming to implement.
 
 
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow"  >}} 
+<!-- {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow"  >}}  -->
+
+{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow"  >}} 
 
 Here is the export of my subflow - feel free to use it.
 
@@ -44,15 +46,22 @@ Here is the export of my subflow - feel free to use it.
 
 Example flow, this is just a simple example to show how everything stitches together.
 
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow.png" alt="Simple flow example using the GUID subflow"  >}} 
+<!-- {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow.png" alt="Simple flow example using the GUID subflow"  >}}  -->
+
+{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow.png" alt="Simple flow example using the GUID subflow"  >}} 
 
 Configuration of sub-flow
 
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-config.png" alt="Subflow"  >}} 
+<!-- {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-config.png" alt="Subflow"  >}}  -->
+
+{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-config.png" alt="Subflow"  >}} 
 
 Debug node
 
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-debug.png" alt="Debug information with GUID"  >}} 
+<!-- {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-debug.png" alt="Debug information with GUID"  >}}   -->
+
+{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-debug.png" alt="Debug information with GUID" caption="Click to view full size" >}}
+
 
 ## Is it worth it?
 
