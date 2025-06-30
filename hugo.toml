@@ -1,6 +1,7 @@
 baseURL = 'https://me.fskelly.com/'
 languageCode = 'en-us'
-title = 'Fletcher Kelly | Build | Automate | Learn'
+## title = 'Fletcher Kelly | Build | Automate | Learn'
+title = 'Fletcher Kelly'
 theme = 'rusty-typewriter'
 
 # build search index ================
@@ -43,8 +44,8 @@ pageRef = '/topics/3d-printing/'
 weight = 3
 
 [[menus.main]]
-name = 'Features'
-pageRef = '/features'
+name = 'Self-hoster'
+pageRef = '/topics/self-hosting'
 weight = 4
 
 # [[menus.main]]
