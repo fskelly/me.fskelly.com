@@ -2,7 +2,7 @@
 title = 'Dark Theme'
 date = '2025-03-24T23:00:00-03:00'
 tags = ['guide']
-topics = ['documentation']
+topics = ['self-hosting']
 series = ['styling','features']
 draft = true
 +++
