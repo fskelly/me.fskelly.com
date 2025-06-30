@@ -1,7 +1,7 @@
 +++
 title = 'Enhancing Node-Red with GUIDs'
 date = '2025-06-30T13:47:26+01:00'
-draft = true
+draft = false
 tags = ['node-red', 'improvement']
 author = 'Fletcher Kelly'
 topics = ["Home Automation"]
@@ -34,7 +34,7 @@ I have spent time and this will be an on-going process to add GUIDs (yes, those 
 So a simple enough change, but time-consuming to implement.
 
 
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow"  >}} 
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/new-central-blog/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow"  >}} 
 
 Here is the export of my subflow - feel free to use it.
 
