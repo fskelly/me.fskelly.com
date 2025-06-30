@@ -34,13 +34,25 @@ I have spent time and this will be an on-going process to add GUIDs (yes, those 
 So a simple enough change, but time-consuming to implement.
 
 
-{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/new-central-blog/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow"  >}} 
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow"  >}} 
 
 Here is the export of my subflow - feel free to use it.
 
 ```json
 [{"id":"f44cf6f9b8f814e3","type":"subflow","name":"Flow Trace Tagger (1)","info":"Adds msg.flow_origin and msg.flow_trace for debugging and traceability.\nSet the environment variable TAG_NAME when using this subflow.","category":"","in":[{"x":60,"y":80,"wires":[{"id":"6c2c2c6e8e2f886c"}]}],"out":[{"x":440,"y":80,"wires":[{"id":"6c2c2c6e8e2f886c","port":0}]}],"env":[{"name":"TAG_NAME","type":"str","value":""}],"color":"#FFD580","status":{"x":340,"y":380,"wires":[{"id":"0df253ebbfe15d99","port":0}]}},{"id":"6c2c2c6e8e2f886c","type":"change","z":"f44cf6f9b8f814e3","name":"Set flow trace tags","rules":[{"t":"set","p":"flow_origin","pt":"msg","to":"$env('TAG_NAME') != '' ? $env('TAG_NAME') : 'Unlabeled Flow'","tot":"jsonata"},{"t":"set","p":"flow_trace","pt":"msg","to":"$now() & ' - ' & ($env('TAG_NAME') != '' ? $env('TAG_NAME') : 'Unlabeled Flow')","tot":"jsonata"}],"x":250,"y":80,"wires":[["363a78cde4fa6638"]]},{"id":"0df253ebbfe15d99","type":"status","z":"f44cf6f9b8f814e3","name":"","scope":null,"x":180,"y":380,"wires":[[]]},{"id":"363a78cde4fa6638","type":"function","z":"f44cf6f9b8f814e3","name":"status","func":"//var date = new Date();\n//var dateTime = date.toLocaleString(); // Format the date and time\n\n// In our `msg.payload` the `title` attribute contains the name of the game.\nvar statusText = msg.flow_trace;\n\n// `node.status` will display the actual status below your function node using\n// the data you provide here.\nnode.status({ fill: \"blue\", shape: \"ring\", text: statusText });\nreturn msg;\n","outputs":1,"timeout":0,"noerr":0,"initialize":"","finalize":"","libs":[],"x":490,"y":200,"wires":[[]]}]
 ```
+
+Example flow, this is just a simple example to show how everything stitches together.
+
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow.png" alt="Simple flow example using the GUID subflow"  >}} 
+
+Configuration of sub-flow
+
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-config.png" alt="Subflow"  >}} 
+
+Debug node
+
+{{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-debug.png" alt="Debug information with GUID"  >}} 
 
 ## Is it worth it?
 
