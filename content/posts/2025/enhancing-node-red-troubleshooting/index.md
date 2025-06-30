@@ -36,7 +36,7 @@ So a simple enough change, but time-consuming to implement.
 
 <!-- {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow"  >}}  -->
 
-{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow"  >}} 
+{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/subflow.png" alt="My GUID Subflow" caption="Click to view full size"   >}} 
 
 Here is the export of my subflow - feel free to use it.
 
@@ -48,13 +48,13 @@ Example flow, this is just a simple example to show how everything stitches toge
 
 <!-- {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow.png" alt="Simple flow example using the GUID subflow"  >}}  -->
 
-{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow.png" alt="Simple flow example using the GUID subflow"  >}} 
+{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow.png" alt="Simple flow example using the GUID subflow" caption="Click to view full size"   >}} 
 
 Configuration of sub-flow
 
 <!-- {{< figure src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-config.png" alt="Subflow"  >}}  -->
 
-{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-config.png" alt="Subflow"  >}} 
+{{< figurelink src="https://raw.githubusercontent.com/fskelly/fskelly.me/main/static/2025/enhancing-node-red-guids/flow-config.png" alt="Subflow" caption="Click to view full size"  >}} 
 
 Debug node
 
