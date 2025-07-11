@@ -52,3 +52,5 @@ weight = 4
 # name = 'About'
 # pageRef = '/about.md'
 # weight = 6
+
+googleAnalytics="GTM-WFG7V6WC"
