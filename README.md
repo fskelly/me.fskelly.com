@@ -19,35 +19,88 @@ Happy reading!!
 
 Backend for my [blog](https://me.fskelly.com/)
 
-## HUGO installation
+## Hugo installation
 
-I use [chocolatey](https://chocolatey.org/install) as my package manager or installation engine.
-
-Installing HUGO is easy, I choose the extended version to allow for more capabilities.
+I use the extended Hugo build on Windows.
 
 ```powershell
 choco install hugo-extended -y
 ```
 
-My build command
+Or with winget:
 
-```bash
-C:\ProgramData\chocolatey\lib\hugo-extended\tools\hugo.exe
+```powershell
+winget install -e --id Hugo.Hugo.Extended
+```
+
+If `hugo` is still not available after installing, open a new terminal session and run the version check again.
+
+Verify the installation:
+
+```powershell
+hugo version
+```
+
+## Run the site locally
+
+Start the local development server and include draft posts:
+
+```powershell
+hugo server -D
+```
+
+Build the production output into the `public/` folder:
+
+```powershell
+hugo --minify
 ```
 
 ## Create a new post
 
-I like to create my content based upon year  
-My folder structure looks like this  
+Posts are stored by year under `content/posts/`.
 
-```bash
-content  
-|---post
-    |---year
-        |---postTitle
-            |---index.md
+```text
+content/
+    posts/
+        2026/
+            my-new-post/
+                index.md
 ```
 
-```bash
-hugo new post/{{year}}/{{postTitle}}/index.md
+Create a new draft post:
+
+```powershell
+hugo new posts/2026/my-new-post/index.md
+```
+
+New posts are created from the archetype with `draft = true`.
+
+## Work with drafts
+
+Preview draft content locally:
+
+```powershell
+hugo server -D
+```
+
+Publish a post by changing the front matter in the post file:
+
+```toml
+draft = false
+```
+
+## Publish changes
+
+Build locally before pushing:
+
+```powershell
+hugo --minify
+```
+
+Commit and push the update:
+
+```powershell
+git add .
+git commit -m "Add or update blog content"
+git push origin main
 ```
