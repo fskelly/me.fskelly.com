@@ -62,15 +62,15 @@ Posts are stored by year under `content/posts/`.
 ```text
 content/
     posts/
-        2026/
-            my-new-post/
+        {{year}}/
+            {{post}}/
                 index.md
 ```
 
 Create a new draft post:
 
 ```powershell
-hugo new posts/2026/my-new-post/index.md
+hugo new posts/{{year}}/{{post}}/index.md
 ```
 
 New posts are created from the archetype with `draft = true`.
