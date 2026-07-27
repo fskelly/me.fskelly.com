@@ -80,7 +80,7 @@ New posts are created from the archetype with `draft = true`.
 Preview draft content locally:
 
 ```powershell
-hugo server -D
+hugo serve -D
 ```
 
 Publish a post by changing the front matter in the post file:
