@@ -7,6 +7,9 @@ author = 'Fletcher Kelly'
 topics = ["Self Hosting"]
 +++
 
+Why do I have a home lab and what do I use it for? This is a question I get asked a lot and I thought I would write a post to explain my home lab and what I use it for. This is not a comprehensive list of everything I use, but it will give you an idea of what I use and why.
+
+<!--more-->
 > **NB:** These are my personal thoughts and are in no way associated with my employer or work profile.
 
 Let's get some of the basics out of the way quickly.
