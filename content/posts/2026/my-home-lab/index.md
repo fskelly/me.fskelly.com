@@ -1,6 +1,6 @@
 +++
 date = '2026-07-24T09:57:34+01:00'
-draft = true
+draft = false
 title = 'My Home Lab'
 tags = ['home-lab', 'unRAID', 'docker', 'self-hosting']
 author = 'Fletcher Kelly'
