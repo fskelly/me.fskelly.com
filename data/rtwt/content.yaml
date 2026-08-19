@@ -1,7 +1,7 @@
 home:
   image: 'images/banner.jpg'
   greetings: 'Welcome fellow knowledge gatherer!'
-  text: 'Welcome to my blog where I share my experiences, learnings and failures.'
+  text: 'Building useful things with cloud, code, 3D printing, Home Automation and a bit of chaos.'
 #side:
 #  home:
 #  - content: 'If you like the theme make sure to give the repo a star!'
