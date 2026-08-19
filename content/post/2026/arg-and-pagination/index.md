@@ -1,6 +1,5 @@
 +++
 date = '2026-08-18T12:02:29+01:00'
-draft = true
 title = 'Azure Resource Graph, Scripting and Pagination'
 tags = ['azure', 'resource graph', 'powershell']
 author = 'Fletcher Kelly'
@@ -15,8 +14,8 @@ I was working on a customer issue the other day. They needed to get a lot of res
 
 Pagination is part of the problem and how we deal with that, however this particular also had a significant number of subscriptions to deal with as well. This added a layer of complexity to the problem. So how did I approach this problem? I used a combination of 2 items.
 
-    1. Process each subscription at a time.
-    2. Handle pagination for each subscription.
+1. [Process each subscription at a time](#1-process-each-subscription-at-a-time)
+2. [Handle pagination for each subscription](#2-handle-pagination-for-each-subscription)
 
 ## 1. Process each subscription at a time
 
